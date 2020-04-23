@@ -89,23 +89,32 @@ As mentioned above, the dataset is made publically available(*credits : John Hop
     Choropleth maps are popular maps used to represent statistical data through various shading patterns or symbols on                       predetermined geographic areas (i.e. countries). They are good at utilizing data to easily represent variability of the desired         measurement, across a region. Since we are given the data of various countries, Exploratory Data Analysis(EDA) via choropleth maps       seems a suitable option.
     
     In order to accomplish this, we employ the *choropleth()* function incorporated in the *plotly.express* module. Two Choropleth maps     were plotted in order to depict the **global growth** of the coronavirus pandemic.
-    
+    Down below are the snapshots in order of :
+     * Globally confirmed COVID-19 cases in January, taken at timestamp 0 in the generated choropleth map.
+     * Globally cofirmed COVID-19 cases in April, taken at the final timestamp in April, in the generated choropleth map.
+     * Globally fatal COVID-19 cases in January, taken at timestamp 0 in the generated choropleth map.
+     * Globally fatal COVID-19 cases in April, taken at the final timestamp in April, in the generated choropleth map.
+        
     ![Global Confirmed Cases in January](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Global%20Confirmed%20Cases%20in%20January.png?raw=true "Optional Title")
-    
+        
     ![](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Global%20Confirmed%20Cases%20in%20April.png)
     
+    
     ![](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Global%20Fatal%20Cases%20in%20January.png)
+    
     
     ![](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Global%20Fatal%20cases%20in%20April.png)
     
    ```diff
-   - Github can't support the display of Choropleth map or dynamic(race) graphs. Hence these outputs can only be visualized on these notebooks uploaded on Kaggle platform.  
+   - Github can't support the display of Choropleth map or dynamic(race) graphs. Hence these outputs can only be truly visualized with the passage of time on these same notebooks committed on Kaggle platform.  
      
    - 1. Global forecast confirmed predicted cases Python Notebook ( https://www.kaggle.com/fireheart7/globalforecast-confirmedcases )
    - 2. Global forecast cumulative fatal cases Python3 notebook ( https://www.kaggle.com/fireheart7/globalforecast-fatalcases )
    ```
 
-* **8. **
+* **8. Generating a Race bar chart to compare the growth of COVID-19(EDA Phase 2)** : 
+
+    
 
 
     
