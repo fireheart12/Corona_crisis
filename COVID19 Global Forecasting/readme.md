@@ -1,5 +1,7 @@
 # COVID-19 Global Forecasting 
 
+![Coronavirus](https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg)
+
 Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces. 
 One can be infected by breathing in the virus if one is within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.
 
@@ -77,6 +79,16 @@ As mentioned above, the dataset is made publically available(*credits : John Hop
     ![A comparitive study of confirmed cases across the globe](https://www.kaggleusercontent.com/kf/32471333/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..ZY4-XHE6foc9p9_x_SPkrQ.akYOxZRCd4mR6oxLOodaLPRkYO7NIN0zb6NrQrNEXcpN3zJY5wo3V3-DWQSKMGy2kc9A0rT_sUnTAK6cMBtvvzRj-b4PLhoVfrm1FhKryvwpxCWfAaQBO_EEOzyw-bnV2NeKxjC6Q2vKNdxTTsLv3NCBpXNpRKKaGMzKmdl1_BLWm675rwPVILutqdLeM4Ueon_J63v2fQ5VXc2RCsyZIhlGWGFSHtkaWmDwpQvuG5rGwKuCiw_Iois9ZHutvECmaH70AsY_2-od9Z5DE3vcdv_mmCDoL3BKV9nSka58eQ-7Lu_oJyaLd9nfYRF4wRpcuG7tRd_eEdkBJEScJJWhlXdle-YjvmYBuETV4O4vzP523ePCg-C5vD56nb5_vDQ_UFqNSlfn7UvZI1UDM5mknssDVi_stYv2Kv4ycnRGsUTs3KTHvwBjE38ZpKctuCdIQ0FMpS31_OklCKV8GcQGaP3IIfYq42AHLAunwZEFRM4THZtKhf2uASOR4CuquRV7Y2Etz6AqkUqBcUrBXEIsTVsvmhLj172OAmTaXwfUSJ_dbdlv1QYdnNLRsjgy-IDY5T3gueu7a0y4CZ0ALaNKJ9iE8RBFeeOX5oOXFmPbs10z7_AaQZ1fZbezrB3wroVXjtvANheyM-MaG7nWyKgFf54IFPUv5AaSJE9G4O7vrC0.vkFPosd1HI2oyHVRpVXUOg/__results___files/__results___7_1.png)
     
     ![A comparitive study of fatal cases across the globe](https://www.kaggleusercontent.com/kf/32471333/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..ZY4-XHE6foc9p9_x_SPkrQ.akYOxZRCd4mR6oxLOodaLPRkYO7NIN0zb6NrQrNEXcpN3zJY5wo3V3-DWQSKMGy2kc9A0rT_sUnTAK6cMBtvvzRj-b4PLhoVfrm1FhKryvwpxCWfAaQBO_EEOzyw-bnV2NeKxjC6Q2vKNdxTTsLv3NCBpXNpRKKaGMzKmdl1_BLWm675rwPVILutqdLeM4Ueon_J63v2fQ5VXc2RCsyZIhlGWGFSHtkaWmDwpQvuG5rGwKuCiw_Iois9ZHutvECmaH70AsY_2-od9Z5DE3vcdv_mmCDoL3BKV9nSka58eQ-7Lu_oJyaLd9nfYRF4wRpcuG7tRd_eEdkBJEScJJWhlXdle-YjvmYBuETV4O4vzP523ePCg-C5vD56nb5_vDQ_UFqNSlfn7UvZI1UDM5mknssDVi_stYv2Kv4ycnRGsUTs3KTHvwBjE38ZpKctuCdIQ0FMpS31_OklCKV8GcQGaP3IIfYq42AHLAunwZEFRM4THZtKhf2uASOR4CuquRV7Y2Etz6AqkUqBcUrBXEIsTVsvmhLj172OAmTaXwfUSJ_dbdlv1QYdnNLRsjgy-IDY5T3gueu7a0y4CZ0ALaNKJ9iE8RBFeeOX5oOXFmPbs10z7_AaQZ1fZbezrB3wroVXjtvANheyM-MaG7nWyKgFf54IFPUv5AaSJE9G4O7vrC0.vkFPosd1HI2oyHVRpVXUOg/__results___files/__results___8_1.png)
+    
+* **6. Combining country and provinces into region** :
+    
+    In this section, *Country_Region* and *Province_State* is combined under one header, that is *Region*. Subsequently, the                 Country_Region and Province_State column is removed in order to combine two features into a single feature. This feature pre-           processing aids us in effectively summing the essence of two features into one, simultaneously narrowing down the dimesional             structure of the feature matrix fed to the deep neural networks.
+    
+* **7. Data Exploration via Choropleth maps** : 
+
+    
+
+
     
     
       
