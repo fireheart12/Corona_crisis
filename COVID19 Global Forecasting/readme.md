@@ -49,8 +49,31 @@ As mentioned above, the dataset is made publically available(*credits : John Hop
 
 * **2. Loading the COVID-19 dataset** :
 
-Using Pandas library the datasets are read and subsequently converted into dataframes, for easier Exploratory Data Analysis(EDA) and data pre-processing. 
+  Using Pandas library the datasets are read and subsequently converted into dataframes, for easier Exploratory Data Analysis(EDA) and     data pre-processing. 
 
+* **3. Fill the missing values** :
+
+  Using *pandas.fillna()* function, the missing values in the dataframe are replaced by the chosen values.
+   * Empty values in Provinces column are assigned to NULL value.
+   * Empty values in Confirmed cases column are assigned the value NULL.
+   * Empty values in Fatalities case column are also assigned NULL value.
+
+* **4. Grouping cases together** :
+
+    Since we have been given a time-series data of various countries around the world, corresponding to the number of confirmed cases       and fatalities observed, we aim to ouput the total number of confirmed cases and fatalities observed on various dates in a               particular country/region. This is accomplished in the dataframe using *groupby()* function available in Pandas library. 
+
+* **5. Plotting country wise results** :
+    
+    Now that we have extracted the confirmed cases as well as fatality count according to dates, for each country in the dataframe; step     two is initiated where *matplotlib* is used in order to plot these counts over time. To enable comparitive study, counts of some         countries are plotted against each other. Here I have plotted the counts of the following countries : 
+    
+     * The United States of America
+     * Italy
+     * Republic of India
+     * France
+     * China
+     * Taiwan
+     * The United Kingdom
+      
 
 
 
