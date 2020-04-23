@@ -22,11 +22,36 @@ As mentioned above, the dataset is made publically available(*credits : John Hop
 * train.csv - the training data containing the cumulative predicted as well as fatal cases observed in the previous months, all across the globe.
 * test.csv - the dates to predict. 
 
-*For more information on how the data was collected, please visit :*
+For more information on how the data was collected, please visit :
 
 **https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series**  
 
-## Notebooks 
+## Notebooks and files : 
+
+* **covid-19-eda.ipynb** : Notebook containing some Exploratory Data Analysis(EDA) performed on the given training data.
+* **globalForecast_ConfirmedCases.ipynb** : This notebook predicts the cumulative confirmed cases of COVID-19 for the future dates.
+* **globalForecast_FatalCases.ipynb** : This notebook predicts the cumulative fatalities expected to be encountered in the future.
+* **Predicted_cases.csv** : The ouput(*Cumulative predicted cases*) is saved as .csv file and is uploaded.
+* **Predicted_Fatal_cases.csv** : The output(*Cumulative fata; cases*) is saved as .csv file and is uploaded.
+
+#### 1. globalForecast_ConfirmedCases.ipynb : 
+
+The design structure of the notebook is as follows : 
+
+* **Importing necessary modules** : Following were the Python3 packages that were imported -
+
+  * **Numpy** : 
+  * **Pandas** : 
+  * **Matplotlib** :
+  * **plotly.offline** :
+  * **plotly.express** :
+  * **bokeh.io** :
+  * **bokeh.resources** : 
+  * **sklearn.preprocessing** : 
+  * **sklearn.model_selection** :
+  * **Tensorflow** : 
+
+
 
 
 
