@@ -90,6 +90,14 @@ As mentioned above, the dataset is made publically available(*credits : John Hop
     
     In order to accomplish this, we employ the *choropleth()* function incorporated in the *plotly.express* module. Two Choropleth maps     were plotted in order to depict the **global growth** of the coronavirus pandemic.
     
+    ![Global Confirmed Cases in January](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Global%20Confirmed%20Cases%20in%20January.png?raw=true "Optional Title")
+    
+    ![](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Global%20Confirmed%20Cases%20in%20April.png)
+    
+    ![](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Global%20Fatal%20Cases%20in%20January.png)
+    
+    ![](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Global%20Fatal%20cases%20in%20April.png)
+    
    ```diff
    - Github can't support the display of Choropleth map or dynamic(race) graphs. Hence these outputs can only be visualized on these notebooks uploaded on Kaggle platform.  
      
