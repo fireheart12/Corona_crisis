@@ -85,8 +85,19 @@ As mentioned above, the dataset is made publically available(*credits : John Hop
     In this section, *Country_Region* and *Province_State* is combined under one header, that is *Region*. Subsequently, the                 Country_Region and Province_State column is removed in order to combine two features into a single feature. This feature pre-           processing aids us in effectively summing the essence of two features into one, simultaneously narrowing down the dimesional             structure of the feature matrix fed to the deep neural networks.
     
 * **7. Data Exploration via Choropleth maps** : 
-
+   
+    Choropleth maps are popular maps used to represent statistical data through various shading patterns or symbols on                       predetermined geographic areas (i.e. countries). They are good at utilizing data to easily represent variability of the desired         measurement, across a region. Since we are given the data of various countries, Exploratory Data Analysis(EDA) via choropleth maps       seems a suitable option.
     
+    In order to accomplish this, we employ the *choropleth()* function incorporated in the *plotly.express* module. Two Choropleth maps     were plotted in order to depict the **global growth** of the coronavirus pandemic.
+    
+   ```diff
+   - Github can't support the display of Choropleth map or dynamic(race) graphs. Hence these outputs can only be visualized on these notebooks uploaded on Kaggle platform.  
+     
+   - 1. Global forecast confirmed predicted cases Python Notebook ( https://www.kaggle.com/fireheart7/globalforecast-confirmedcases )
+   - 2. Global forecast cumulative fatal cases Python3 notebook ( https://www.kaggle.com/fireheart7/globalforecast-fatalcases )
+   ```
+
+* **8. **
 
 
     
