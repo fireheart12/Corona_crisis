@@ -9,6 +9,24 @@ More information about this deadly virus(along with prevention tips and mandator
 * https://www.mygov.in/covid-19
 
 
-In this project, I aim to predict not only the COVID-19 **confirmed cases** but also the approximate **fatalities** that may be encountered in the month of April, on specific dates as given in the testing data set. For analyzing this, the entire problem was evaluated using * Time - Series modeling* approach, by looking at the past data as reported from the month of January by John Hopkins University. The data set is uploaded in this project's sub directory itself. The same data set can also be found on Kaggle itself : 
+In this project, I aim to predict not only the **cumulative number of confirmed COVID19 cases** but also the approximate **resulting fatalities** in various locations across the world. 
+
+For analyzing this, the entire problem was evaluated using * Time - Series modeling* approach, by looking at the past data as reported from the month of January by John Hopkins University. The data set is uploaded in this project's sub directory itself. The same data set can also be found on the Kaggle platform itself : 
 * https://www.kaggle.com/c/covid19-global-forecasting-week-4/data
+
+All the *.ipynb* notebooks were created using Kaggle's Jupyter notebooks, and were executed using *NVidia K80 GPUs.*
+
+## COVID-19 DATASET
+
+As mentioned above, the dataset is made publically available(*credits : John Hopkins University*). Copy of the files are uploaded in this projecty's directory as well. The data set composes of the following files : 
+* train.csv - the training data containing the cumulative predicted as well as fatal cases observed in the previous months, all across the globe.
+* test.csv - the dates to predict. 
+
+*For more information on how the data was collected, please visit :*
+
+**https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series**  
+
+## Notebooks 
+
+
 
