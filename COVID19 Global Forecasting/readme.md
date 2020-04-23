@@ -22,34 +22,39 @@ As mentioned above, the dataset is made publically available(*credits : John Hop
 * train.csv - the training data containing the cumulative predicted as well as fatal cases observed in the previous months, all across the globe.
 * test.csv - the dates to predict. 
 
-For more information on how the data was collected, please visit :
+*For more information on how the data was collected, please visit :*
 
 **https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series**  
 
-## Notebooks and files : 
+## Notebooks 
 
-* **covid-19-eda.ipynb** : Notebook containing some Exploratory Data Analysis(EDA) performed on the given training data.
-* **globalForecast_ConfirmedCases.ipynb** : This notebook predicts the cumulative confirmed cases of COVID-19 for the future dates.
-* **globalForecast_FatalCases.ipynb** : This notebook predicts the cumulative fatalities expected to be encountered in the future.
-* **Predicted_cases.csv** : The ouput(*Cumulative predicted cases*) is saved as .csv file and is uploaded.
-* **Predicted_Fatal_cases.csv** : The output(*Cumulative fata; cases*) is saved as .csv file and is uploaded.
+* **covid-19-eda.ipynb** : A notebook where Exploratory Data Analysis(EDA) is performed on the training data. 
+* **globalforecast-confirmedcases.ipynb** : This notebook aims to predict the cumulative predicted confirmed cases for COVID-19, in the future all across the globe.
+* **globalforecast-fatalcases.ipynb** : This notebook aims to predict the cumulative predicted fatal cases for COVID-19, in the future all across the globe.
+* **Predicted_cases.csv** : The ouput(*predicted cumulative cases*) is exported as a .csv file and is uploaded here.
+* **Predicted_Fatal_cases.csv** : The ouput(*predicted fatal cases*) is exported as a .csv file and is uploaded here.
 
-#### 1. globalForecast_ConfirmedCases.ipynb : 
+## Notebook Design Structure
 
-The design structure of the notebook is as follows : 
+### globalforecast-confirmedcases.ipynb : 
 
-* **Importing necessary modules** : Following were the Python3 packages that were imported -
+* **1. Importing necessary Python3 modules** :
+  * **Numpy** : NumPy(Numerical Python) is a python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
+  * **Pandas** : Pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with 'relationa' or 'labeled' data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python.
+  * **Matplotlib** : Matplotlib is a plotting library for the Python3 programming language.
+  * **Plotly** : Like Matplotlib, Plotly is also a plotting library. The sole aim of importing it here was to make use of its submodule in order to create *choropleth* map for a visual global analysis later. 
+  * **Bokeh** : Similarily, Bokeh is also an interactive visualization library for modern web browsers. We import this so that the *choropleth* visualization can be rendered on the committed Jupyter notebook, running on the Google Chrome or any other web browser.
+  * **sklearn** : Scikit-learn provides a range of supervised and unsupervised learning algorithms via a consistent interface in Python. The library is focused on preprocessing/modeling data. It is not focused on loading, manipulating and summarizing data. For these features, we refer to NumPy and Pandas. 
+  * **Tensorflow** : Is a deep learning framework encapsulating comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML, and developers easily build and deploy ML powered applications.
 
-  * **Numpy** : 
-  * **Pandas** : 
-  * **Matplotlib** :
-  * **plotly.offline** :
-  * **plotly.express** :
-  * **bokeh.io** :
-  * **bokeh.resources** : 
-  * **sklearn.preprocessing** : 
-  * **sklearn.model_selection** :
-  * **Tensorflow** : 
+* **2. Loading the COVID-19 dataset** :
+
+Using Pandas library the datasets are read and subsequently converted into dataframes, for easier Exploratory Data Analysis(EDA) and data pre-processing. 
+
+
+
+
+
 
 
 
