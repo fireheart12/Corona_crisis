@@ -137,21 +137,21 @@ As mentioned above, the dataset is made publically available(*credits : John Hop
      ![](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Excerpt%20April%2011.png)
      
      
-### PART 2 : Data Pre-processing
+### PART 2 : Data pre-processing
 
-* **1. Converting date values to datetime using Pandas** :
+* **Converting date values to datetime using Pandas** :
 
 For time stamps, Pandas provides the Timestamp data type, which is essentially a replacement for Python's native datetime , but is based on the more efficient numpy. datetime64 data type. This should be treated as Pandas custom data structure for efficient implementations and information extraction. All the values in 'Date' column are converted into timestamps using *pandas.to_datetime()* function. 
 
-* **2. Extracting information from date** :
+* **Extracting information from date** :
 
 By constructing a function, we extract the corresponding date and month as numeric values, from the aforementioned timestamp date column. For this, all the values in datetime column were first converted into *pydatetime* format, which would have been only possible if the initial values were in *timestamp* appearance. After all this extraction, the values were appended under two new columns, that is 'Month' and 'Day'. Also, the original column containing dates was removed. Also, the primary index was also altered to "Id" rather than the Pandas generated auto indices. 
 
-* **3. Encoding Region** : 
+* **Encoding Region** : 
 
 *Label Encoder* : In order to convert categorical text data into model-understandable numerical data, we use the Label Encoder class. So all we had to do, to label encode the *Region* column, was to import the LabelEncoder class from the sklearn library, fit and transform the *Region* column of the data, and then replace the existing text data with the new encoded data. Also, since the count of fatal and confirmed cases can't be in fractions, hence we explicitly type cast the values to *Integer* format. 
 
-* **4. Splitting data into training and validation set** :
+* **Splitting data into training and validation set** :
 
 
 
