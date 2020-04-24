@@ -112,7 +112,10 @@ As mentioned above, the dataset is made publically available(*credits : John Hop
    - 2. Global forecast cumulative fatal cases Python3 notebook ( https://www.kaggle.com/fireheart7/globalforecast-fatalcases )
    ```
 
-* **8. Generating a Race bar chart to compare the growth of COVID-19(EDA Phase 2)** : 
+* **8. Generating a bar chart race to compare the growth of COVID-19(EDA Phase 2)** : 
+
+    The race chart is generated using **Flourish Studio**, which helps coders/journalists/researchers create easy data visualizations. More information about this service can be found at : *https://flourish.studio/*. However, the data is expected to be in a specific format before the studio can render the chart race. The required template/format is available on : *https://app.flourish.studio/@flourish/bar-chart-race*. Our data is also manipulated to fit the aforementioned template description using the *pandas.pivot()* function, which is then exported in *.csv* format and uploaded on the Flourish studio web page. The bar chart race settings are tweaked according to the instructions on the studio page, and the sunsequent visualization was generated. 
+    
 
     
 
