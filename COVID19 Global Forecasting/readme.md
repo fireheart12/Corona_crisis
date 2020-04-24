@@ -116,6 +116,28 @@ As mentioned above, the dataset is made publically available(*credits : John Hop
 
     The race chart is generated using **Flourish Studio**, which helps coders/journalists/researchers create easy data visualizations. More information about this service can be found at : *https://flourish.studio/*. However, the data is expected to be in a specific format before the studio can render the chart race. The required template/format is available on : *https://app.flourish.studio/@flourish/bar-chart-race*. Our data is also manipulated to fit the aforementioned template description using the *pandas.pivot()* function, which is then exported in *.csv* format and uploaded on the Flourish studio web page. The bar chart race settings were tweaked according to the instructions on the studio page, and the subsequent visualization was created. All that was left was to embed the visualization in our *.ipynb* notebook, which was accomplished using the *IPython.display.HTML()* command. 
     
+    Following are the excerpts from the bar chart race. The entire race is available on the uploaded notebook at Kaggle(*https://www.kaggle.com/fireheart7/globalforecast-confirmedcases*). Excerpts 1-4 are pasted below : 
+    
+     * Excerpt I : January 24, 2020   | Global confirmed cases : 939
+     * Excerpt II : February 24, 2020 | Global confirmed cases : 79,659
+     * Excerpt III : March 24, 2020   | Global confirmed cases : 433,460
+     * Excerpt IV : April 11, 2020    | Global Confirmed Cases : 2,401,199
+     
+     ![](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Excerpt%20Jan%2024.png)
+     
+     
+     ![](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Excerpt%20Feb%2024.png)
+     
+     
+     ![](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Excerpt%20March%2024.png)
+     
+     
+     ![](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/Excerpt%20April%2011.png)
+     
+     
+     
+     
+    
 
     
 
