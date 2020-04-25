@@ -11,10 +11,10 @@ More information about this deadly virus(along with prevention tips and mandator
 * https://www.google.com/intl/en_in/covid19/
 * https://www.mygov.in/covid-19
 
-So far, this repository composes of a sub directory where we aim to forecast the global confirmed and fatal cases, using time series modeling through **Long Short Term Memomey(LSTM)** neural network architecture.
+So far, this repository composes of a sub directory where we aim to forecast the global confirmed and fatal cases, using time series modeling through **Long Short Term Memory(LSTM)** neural network architecture.
 
 A massively detailed explanation can be found as soon as one navigate into that sub-directory. Our goal was to make the description as detailed as possible, so that any individual new to the field of deep learning can easily understand the mandatory **Exploratory Data Analysis(EDA)** and **data pre-processing** steps that were taken along with the subsequent design of the **LSTM network.**
 
 *Global pandemic requires global solutions - and we will get through!*
 
-*A heartfelt thank you to all front line workers who are defending us from this catastrophe.*
+*A heartfelt thanks to all the front line workers who are continuously defending us from this catastrophe.*
