@@ -1,4 +1,5 @@
-# COVID-19 Global Forecasting 
+# COVID-19 Case Forecasting : REPUBLIC OF INDIA
+### Jan - May
 
 ![Coronavirus](https://github.com/CodingWitcher/Corona_crisis/blob/master/COVID19%20Global%20Forecasting/EDA%20Snapshots/COVID-19.jpg)
 
