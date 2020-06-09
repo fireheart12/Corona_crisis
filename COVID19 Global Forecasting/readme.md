@@ -190,7 +190,19 @@ More information on LSTM is available this amazing page : **https://colah.github
 
 * **Prediction** : 
 
-The trained model was ultimately fed the testing data and the output was exported as *.csv* file. 
+Prediction was done on the **hold-out cross validation set** The loss observed over time(for confirmed cases) is shown below :
+
+![](https://github.com/CodingWitcher/Corona_crisis/blob/master/images_for_readme/Training%20loss.png) 
+
+**PREDICTED CONFIRMED COVID-19 CASES IN INDIA** :
+
+![](https://github.com/CodingWitcher/Corona_crisis/blob/master/images_for_readme/Predicted%20Cases.png)
+
+**PREDICTED FATAL COVID-19 CASES IN INDIA** : 
+
+![](https://github.com/CodingWitcher/Corona_crisis/blob/master/images_for_readme/Fatal%20Cases.png) 
+
+
 
 
 
